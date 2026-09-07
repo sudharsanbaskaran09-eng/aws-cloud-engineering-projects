@@ -14,7 +14,7 @@ phases:
     commands:
       - echo Build started on `date`
       - echo Building Docker image...
-      - docker build -t $ECR_REPOSITORY:$IMAGE_TAG .
+      - docker build -t $ECR_REPOSITORY:$IMAGE_TAG ./01-aws-cicd-pipeline
       - docker tag $ECR_REPOSITORY:$IMAGE_TAG $AWS_ACCOUNT_ID.dkr.ecr.$AWS_REGION.amazonaws.com/$ECR_REPOSITORY:$IMAGE_TAG
 
   post_build:
