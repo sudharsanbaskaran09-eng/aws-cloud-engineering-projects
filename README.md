@@ -2,7 +2,7 @@
 
 A hands-on collection of **AWS Cloud & DevOps projects** designed to demonstrate practical skills in cloud infrastructure, automation, CI/CD, containerization, Kubernetes, monitoring, security, and Infrastructure as Code.
 
-## 🚀 Projects
+##  Projects
 
 | # | Project | AWS Services / Technologies | Status |
 |---|---|---|---|
@@ -13,7 +13,7 @@ A hands-on collection of **AWS Cloud & DevOps projects** designed to demonstrate
 
 ---
 
-## 🏗️ Repository Structure
+##  Repository Structure
 
 ```text
 aws-cloud-engineering-projects/
